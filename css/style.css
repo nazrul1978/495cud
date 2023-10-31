@@ -1,0 +1,309 @@
+ /*Global font css*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Titillium Web', sans-serif;
+}  
+section{
+    text-align: center;
+    padding: 75px 0px;
+}
+
+.row{
+    width:100%;
+    float: left;
+}
+
+[class*="col-"] {
+    float: left;
+  }
+
+.col-1{ width: 8.33%;
+}
+.col-2{ width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{width: 33.33%; 
+}
+.col-5{width: 41.66%;
+}
+.col-6{width: 50%;
+    
+}
+.col-7{width: 58.33%;
+}
+.col-8{width: 66.66%;
+}
+.col-10{width: 75%;
+}
+.col-11{width: 91.66%;
+}
+.col-12{width: 100%; 
+}
+
+#header{
+    background-color: #87509c;
+    padding: 10px;
+    
+}
+
+.nav{
+    padding: 20px 0px;
+}
+.menu-part{
+color: #ffff;
+
+}
+.menu-part ul{
+    text-align: end;
+
+}
+.menu-part ul li{
+    padding: 5px 8px;
+    display: inline-block;
+    margin: 0px 5px;
+   
+}
+.menu-part ul li:hover{
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 6px;
+}
+
+.menu-part ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+
+}
+.header-content h1{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+.header-content{
+    padding: 100px;
+    text-align: center;
+}
+
+.btn{
+    background-color:orange;
+    border-radius: 10px;
+    width: 15%;
+    padding: 10px 10px;
+    margin-top: 30px;
+    
+}
+.btn:hover{
+    color: rgb(0, 81, 255);
+}
+
+/*service  section */
+#service{
+        background-color: #17c2a4;
+        color: white;
+        padding: 50px 0px;
+}
+#service .box img{
+    height: 150px;
+}
+.box{
+    padding: 0px 25px;
+}
+.underline{
+    border-top: 5px solid;
+    width: 7%;
+    margin: auto;
+    color: #211a41;
+}
+.heading{
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+.naz{
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+/*team section*/
+
+#team{
+    background-color: #e7f1f8;
+    text-align: center;
+    color:#3c4761;
+
+}
+.team-icons{
+padding: 20px 5px;
+    color: coral;
+    margin-top: 20px;
+}
+.team-icons i{
+    background-color: #3f0b94;
+    padding: 10px;
+    font-size: 20px;
+    width: 45px;
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+.team-icons:hover{
+    color: #344b8e;
+    transition: 3px;
+}
+#team .box img{
+    height: 150px;
+}
+    
+
+/*skill section*/
+
+#skill{
+background-color:#ffffff;
+color:#3c4761;
+
+}
+ 
+/*Portfolio section*/
+#portfolio{
+    background-color:#ffdd99 ;
+    color: black;
+
+}
+
+.Polio-btn{
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.Polio-btn li{
+padding: 100px;
+margin: 0px 5px;
+background-color: #5f9c50;
+}
+.Polio-btn a{
+    text-decoration: none;
+    font-size: 100x;
+    color: #87509c;
+    background-color: #87509c
+    text-transform: uppercase;
+}
+    
+.Polio-btn:hover {				
+    background-color: rgb(255, 255, 255);
+    color: aqua;	 		
+}	
+/*about section*/
+#about{
+    background-color:#d74680;
+   
+    color: #ffffff;
+}
+.about-writing-part .des {
+    color: #ffdd99;
+    
+  }
+  .desk{
+    color: #ffdd99;
+  }
+#about.box-part{
+    margin-top: 50px;
+}
+.sub-heading{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0px;
+
+}
+.about-writing-part{
+    text-align:left;
+ 
+}
+p{
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 300;
+
+}
+.writing-part{
+    margin-bottom: 50px;
+
+}
+/* contact section*/
+#contact{
+    background-color:#3c5499;
+    color: #fff;
+}
+#contact P{
+padding-top: 15px;
+
+    }
+#contact form{
+    width: 70%;
+    margin: auto;
+}
+.form-second-part{
+    width: 70%;
+    margin: auto;
+ 
+}
+input,
+textarea{
+    width: 80%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #273a71;
+    color: #ffff;
+    font-size: 16px;
+    text-align: start;
+}
+input::placeholder,
+textarea::placeholder {
+    font-size: 16px;
+    color: #fff;
+
+}
+.form-name-part input{
+   width: 100%;
+}
+.form-email-part input{
+    width: 80%;
+    margin-left: 2%;
+}
+input[type="submit"]{
+    background-color: #30bae7;
+    margin: auto;
+  
+}
+.form-second-part{
+    margin-left: 15%;
+}
+#submit{
+    padding-top: 20px;
+}
+
+/*footer  part*/
+
+footer{
+    padding: 0px 10px; 
+    background-color:#344b8e; 
+    text-align: center;          
+
+}
+.footer-ul{
+   font-size: 20px;
+   font-weight: 400;
+}
+
+footer ul li:hover {
+    background-color: transparent;
+  }
+
